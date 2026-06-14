@@ -48,7 +48,7 @@ function Interview() {
   localStorage.getItem("token");
 
 const response = await fetch(
-  "http://127.0.0.1:5000/evaluate_answers",
+  "https://smart-interview-coach-ozbd.onrender.com/evaluate_answers",
   {
     method: "POST",
 

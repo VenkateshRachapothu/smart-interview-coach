@@ -29,6 +29,7 @@ import os
 import sqlite3
 
 app = Flask(__name__)
+init_db()
 app.config["JWT_SECRET_KEY"] = "smart-interview-coach-secret"
 
 jwt = JWTManager(app)

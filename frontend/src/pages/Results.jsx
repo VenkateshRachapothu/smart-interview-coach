@@ -50,7 +50,7 @@ function Results() {
 
   const downloadReport = async () => {
     try {
-      const response = await fetch("http://127.0.0.1:5000/download_report", {
+      const response = await fetch("https://smart-interview-coach-ozbd.onrender.com/download_report", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ results, summary }),

@@ -33,7 +33,7 @@ function Login() {
 
       const response =
         await fetch(
-          "http://127.0.0.1:5000/login",
+          "https://smart-interview-coach-ozbd.onrender.com/login",
           {
             method: "POST",
             headers: {
